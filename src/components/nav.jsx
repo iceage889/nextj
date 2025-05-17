@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Heart, ShoppingCart, User, Search, Menu, X } from "lucide-react";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -10,14 +11,28 @@ export default function Navbar() {
     <nav className="p-4 shadow-sm border-b">
       <div className="flex items-center justify-between">
         {/* Left - Logo */}
-        <div className="text-2xl font-bold">Exclusive</div>
+        <div className="text-2xl font-bold">
+          <Link href={"/"}>Exclusive</Link>
+        </div>
 
         {/* Desktop Nav Links */}
         <ul className="hidden md:flex space-x-6 text-sm">
-          <li className="cursor-pointer hover:text-gray-600">Home</li>
-          <li className="cursor-pointer hover:text-gray-600">Contact</li>
-          <li className="cursor-pointer hover:text-gray-600">About</li>
-          <li className="cursor-pointer hover:text-gray-600">Sign Up</li>
+          <li className="cursor-pointer hover:text-gray-600">
+            {" "}
+            <Link href={"/"}> Home</Link>
+          </li>
+          <li className="cursor-pointer hover:text-gray-600">
+            {" "}
+            <Link href={"/contact"}> Contact</Link>
+          </li>
+          <li className="cursor-pointer hover:text-gray-600">
+            {" "}
+            <Link href={"/about"}>About</Link>
+          </li>
+          <li className="cursor-pointer hover:text-gray-600">
+            {" "}
+            <Link href={"/register"}>Sign Up</Link>
+          </li>
         </ul>
 
         {/* Right - Search and Icons */}
