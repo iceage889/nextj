@@ -7,7 +7,18 @@ export default function ContactPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-10">
       {/* Breadcrumb */}
-      <BreadCrumb />
+      <BreadCrumb
+        items={[
+          {
+            title: "Home",
+            url: "/",
+          },
+          {
+            title: "Contact",
+            url: "/contact",
+          },
+        ]}
+      />
 
       <div className="grid md:grid-cols-2 gap-8">
         {/* Contact Info */}

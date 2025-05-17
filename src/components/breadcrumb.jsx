@@ -1,16 +1,6 @@
 import Link from "next/link";
 
-export default function BreadCrumb() {
-  const items = [
-    {
-      title: "Home",
-      url: "/",
-    },
-    {
-      title: "Contact",
-      url: "/contact",
-    },
-  ];
+export default function BreadCrumb({ items }) {
   return (
     <div className="mb-6 text-sm text-gray-500">
       {items.map((item, i) => (
