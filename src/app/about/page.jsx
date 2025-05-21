@@ -1,6 +1,9 @@
 import BreadCrumb from "@/components/breadcrumb";
 import Images from "@/components/images";
 import imgAbout from "@/components/images";
+import StatsSection from "./components/statsection";
+import TeamCarousel from "./components/teamCarousel";
+import FeatureCarousel from "./components/featureSection";
 
 export default function About() {
   return (
@@ -46,6 +49,14 @@ export default function About() {
             className="xl:max-w-[705px] xl:w-full"
           />
         </div>
+      </div>
+
+      <div>
+        <StatsSection />
+      </div>
+      <div>
+        <TeamCarousel />
+        <FeatureCarousel />
       </div>
     </div>
   );

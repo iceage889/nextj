@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Heart, ShoppingCart, User, Search, Menu, X } from "lucide-react";
 import Link from "next/link";
+import Profile from "@/app/profile/page";
 
 export default function Navbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -55,7 +56,9 @@ export default function Navbar() {
             </span>
           </div>
           <ShoppingCart className="w-6 h-6 cursor-pointer" />
-          <User className="w-6 h-6 cursor-pointer" />
+          <Link href={"/profile"}>
+            <User className="w-6 h-6 cursor-pointer" />
+          </Link>
         </div>
 
         {/* Hamburger Menu Icon */}
@@ -100,7 +103,9 @@ export default function Navbar() {
               </span>
             </div>
             <ShoppingCart className="w-6 h-6 cursor-pointer" />
-            <User className="w-6 h-6 cursor-pointer" />
+            <Link href={"/profile"}>
+              <User className="w-6 h-6 cursor-pointer" />
+            </Link>
           </div>
         </div>
       )}
