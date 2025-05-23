@@ -10,6 +10,10 @@ import Bkash from "@/assets/images/Bkash.png";
 import Visa from "@/assets/images/Visa.png";
 import Mastercard from "@/assets/images/Mastercard.png";
 import image from "@/assets/images/image 33.png";
+import cartbag from "@/assets/images/cartbag.png";
+import cartpad from "@/assets/images/cartpad.png";
+import speaker from "@/assets/images/speaker.png";
+import cloth from "@/assets/images/cloth.png";
 
 const Images = {
   sideImage,
@@ -24,6 +28,10 @@ const Images = {
   Visa,
   Mastercard,
   image,
+  cartbag,
+  cartpad,
+  speaker,
+  cloth,
 };
 
 export default Images;
