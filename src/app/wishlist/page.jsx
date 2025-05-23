@@ -1,5 +1,5 @@
 import BreadCrumb from "@/components/breadcrumb";
-import ProductCard from "./components/ProductCard";
+import ProductCard from "../components/ProductCard";
 import Images from "@/components/images";
 import Link from "next/link";
 

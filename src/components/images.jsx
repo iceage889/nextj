@@ -14,6 +14,8 @@ import cartbag from "@/assets/images/cartbag.png";
 import cartpad from "@/assets/images/cartpad.png";
 import speaker from "@/assets/images/speaker.png";
 import cloth from "@/assets/images/cloth.png";
+import iphone from "@/assets/images/iphone.png";
+import apple from "@/assets/images/apple.png";
 
 const Images = {
   sideImage,
@@ -32,6 +34,8 @@ const Images = {
   cartpad,
   speaker,
   cloth,
+  iphone,
+  apple,
 };
 
 export default Images;
