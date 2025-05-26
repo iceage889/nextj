@@ -6,6 +6,9 @@ import FlashSale from "./components/flashsale";
 import BrowseSale from "./components/browsesale";
 import CategoryIcons from "./components/CategoryIcons";
 import ProductSection from "./components/product";
+import ProductPromo from "./components/speakerpost";
+import Explore from "./components/exploresection";
+import ArrivalSection from "./components/arrival";
 
 export default function HomePage() {
   return (
@@ -18,6 +21,9 @@ export default function HomePage() {
         <FlashSale />
         <BrowseSale />
         <ProductSection />
+        <ProductPromo />
+        <Explore />
+        <ArrivalSection />
       </div>
     </div>
   );

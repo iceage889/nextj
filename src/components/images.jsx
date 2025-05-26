@@ -16,6 +16,11 @@ import speaker from "@/assets/images/speaker.png";
 import cloth from "@/assets/images/cloth.png";
 import iphone from "@/assets/images/iphone.png";
 import apple from "@/assets/images/apple.png";
+import speakerboom from "@/assets/images/speakerboom.png";
+import perfume from "@/assets/images/perfume.png";
+import ps5slim from "@/assets/images/ps5slim.png";
+import threespeaker from "@/assets/images/threespeaker.png";
+import woman from "@/assets/images/woman.png";
 
 const Images = {
   sideImage,
@@ -36,6 +41,11 @@ const Images = {
   cloth,
   iphone,
   apple,
+  speakerboom,
+  perfume,
+  ps5slim,
+  threespeaker,
+  woman,
 };
 
 export default Images;
