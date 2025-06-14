@@ -27,7 +27,7 @@ const features = [
 
 export default function FeatureCarousel() {
   return (
-    <div className="max-w-6xl mx-auto py-10 px-4">
+    <div className="max-w-6xl mx-auto pt-10 pb-20 px-4">
       <Swiper
         spaceBetween={20}
         slidesPerView={1}

@@ -9,6 +9,7 @@ import ProductSection from "./components/product";
 import ProductPromo from "./components/speakerpost";
 import Explore from "./components/exploresection";
 import ArrivalSection from "./components/arrival";
+import FeatureCarousel from "./about/components/featureSection";
 
 export default function HomePage() {
   return (
@@ -24,6 +25,7 @@ export default function HomePage() {
         <ProductPromo />
         <Explore />
         <ArrivalSection />
+        <FeatureCarousel />
       </div>
     </div>
   );

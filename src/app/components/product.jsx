@@ -2,7 +2,10 @@ import SectionHeaders from "@/components/sectionheaders";
 import ProductCard from "./ProductCard";
 import Images from "@/components/images";
 
-export default function ProductSection() {
+export default function ProductSection({
+  title = "This Month",
+  subtitle = "Best Selling Products",
+}) {
   const sampleProducts = [
     {
       name: "HAVIT HV-G92 Gamepad",
@@ -49,10 +52,7 @@ export default function ProductSection() {
   return (
     <div>
       <div>
-        <SectionHeaders
-          title={"This Month"}
-          subtitle={"Best Selling Products"}
-        />
+        <SectionHeaders title={title} subtitle={subtitle} />
       </div>
       <div className=" bg-white p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-6 gap-y-10">
         {sampleProducts.map((product, index) => (

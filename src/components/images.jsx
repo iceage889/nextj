@@ -21,6 +21,11 @@ import perfume from "@/assets/images/perfume.png";
 import ps5slim from "@/assets/images/ps5slim.png";
 import threespeaker from "@/assets/images/threespeaker.png";
 import woman from "@/assets/images/woman.png";
+import dualpad from "@/assets/images/dual pad.png";
+import pad1 from "@/assets/images/pad1.png";
+import pad2 from "@/assets/images/pad2.png";
+import pad3 from "@/assets/images/pad3.png";
+import mainpad from "@/assets/images/main pad.png";
 
 const Images = {
   sideImage,
@@ -46,6 +51,11 @@ const Images = {
   ps5slim,
   threespeaker,
   woman,
+  dualpad,
+  pad1,
+  pad2,
+  pad3,
+  mainpad,
 };
 
 export default Images;
